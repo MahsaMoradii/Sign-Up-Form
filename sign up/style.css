@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body {
+
+    background: #3f37ce40;
+    font-family: sans-serif;
+}
+input, textarea, select, button{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#form-container{
+    background: white;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 16px;
+    padding: 20px 28px;
+    box-shadow: 0 12px 24px #00000014;
+
+}
+#form-container .form-title{
+    text-align: center;
+    margin-bottom:24px ;
+}
+#form-container label{
+    display: block;
+    margin-bottom:6px;
+
+}
+.input-box{
+    width: 100%;
+    padding: 10px;
+    border-radius:8px ;
+    border: 1px solid #d1d5db;
+    margin-bottom: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+.input-box:focus{
+    outline: 1px solid #6366f1;
+}
+/* change the color of placeholders */
+#form-container .input-box::placeholder {
+    color:#a2a2a2 ;
+}
+#form-container .textarea-box{
+    resize: none;
+}
+#form-container .gender-option{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    color: #4b5563;
+}
+#form-container .register-btn{
+    background:#6366f1;
+    color:white ;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#form-container .register-btn:hover{
+    background:#4f46e5 ;
+}
